@@ -123,3 +123,28 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* ==== Custom Scrollbars ==== */
+::-webkit-scrollbar {
+  width: 6px;   /* thin scrollbar */
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* no ugly white background */
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--muted-foreground); /* theme-based color */
+  border-radius: 9999px; /* pill shape */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--foreground); /* darker on hover */
+}
+
+/* Firefox support */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--muted-foreground) transparent;
+}
