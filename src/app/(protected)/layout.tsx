@@ -1,6 +1,6 @@
 "use client";
 
-import { UserButton } from "@clerk/nextjs";
+import { UserButton, useUser } from "@clerk/nextjs";
 import React from "react";
 import { SidebarProvider } from "~/components/ui/sidebar";
 import AppSidebar from "./app-sidebar";
@@ -10,6 +10,9 @@ type Props = {
 };
 
 const SidebarLayout = ({ children }: Props) => {
+
+  const {user} = useUser()
+
   return (
     <SidebarProvider className="bg-gray-900">
       <div className="flex h-screen w-screen overflow-hidden">
@@ -22,6 +25,7 @@ const SidebarLayout = ({ children }: Props) => {
           <div className="flex items-center gap-2 border-gray-700 bg-gray-800 border shadow rounded-md p-2 px-4 m-2">
             {/* <SearchBar/> */}
             <div className="ml-auto"></div>
+            <h1 className="text-white font-semibold">hi, {user?.firstName}</h1>
             <UserButton
               appearance={{
                 elements: {
@@ -30,6 +34,7 @@ const SidebarLayout = ({ children }: Props) => {
                 },
               }}
             />
+            
           </div>
 
           {/* Scrollable Content */}
