@@ -1,10 +1,7 @@
 # gitEase
 
-<<<<<<< HEAD
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-=======
 
->>>>>>> 69949b5016929f073dac763ca250222c95bf4787
+
 [![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-%2320232a?style=flat&logo=react&logoColor=%2361DAFB)](https://reactjs.org/)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-%2338B2AC?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
@@ -39,7 +36,7 @@ This project combines **AI embeddings, LangChain, Gemini AI, and a modern React 
 
 ## 🎨 Screenshots / Demo
 
-<<<<<<< HEAD
+
 ![Ask Question](https://via.placeholder.com/800x400.png?text=Ask+Question+Card)
 *Ask any question and get instant relevant results.*
 
@@ -60,7 +57,7 @@ This project combines **AI embeddings, LangChain, Gemini AI, and a modern React 
 *Syntax-highlighted code snippets and file references.*
 
 
->>>>>>> 69949b5016929f073dac763ca250222c95bf4787
+
 *Replace the above placeholders with your actual screenshots or GIFs for a polished look.*
 
 ---
@@ -87,8 +84,8 @@ This project combines **AI embeddings, LangChain, Gemini AI, and a modern React 
 ```bash
 git clone https://github.com/your-username/gitease.git
 cd gitease
-<<<<<<< HEAD
-=======
+
+
 ```
 
 2. **install dependencies**
