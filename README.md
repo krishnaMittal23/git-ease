@@ -1,5 +1,8 @@
 # gitEase
 
+# deployed Link
+[gitEase](git-ease.vercel.app)
+
 
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
